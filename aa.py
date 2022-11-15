@@ -1,3 +1,4 @@
 import streamlit as st
 st.title('hello world :)')
-st.balloons()
+if st.button('globos'):
+  st.balloons()
