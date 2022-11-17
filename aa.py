@@ -1,6 +1,6 @@
 import streamlit as st
  
-st.title('Aplicación de la salud')
+st.title('Chécate, Mídete, Muévete \N{MUSICAL NOTES}')
 #st.sidebar.button('click here')
 #co1, co2= st.sidebar.columns( [2,2] )
 #co1.write('esta es la columna 1')
