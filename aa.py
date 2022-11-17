@@ -56,7 +56,7 @@ if (imc>18.5 and imc<24.9):
   st.image('https://www.colchonescefiro.es/blog/wp-content/uploads/2015/10/personas-imc-medio.png')
   st.write('Su índice de masa corporal indica que está saludable, mantenga sus hábitos saludables para conservar su IMC saludable')
   st.subheader('Recomendación')
-  st.write('Al día realiza mínimo 30 minutos de actividad deportiva, haz estiramientos que favorecen a tu circulación.)
+  st.write('Al día realiza mínimo 30 minutos de actividad deportiva, haz estiramientos que favorecen a tu circulación.')
 if (imc>25 and imc<29.9):
   st.write('IMC indica sobrepeso')
   st.image('https://www.colchonescefiro.es/blog/wp-content/uploads/2015/10/personas-imc-alto.png')
