@@ -44,8 +44,8 @@ estatura= st.number_input('Ingrese su estatura en metros',0.01)
 masa= st.number_input('Ingrese su masa en kilos',0.01)
 imc= masa/estatura**2
 x= round(imc,2)
-st.title('Tu índice de masa corporal es:')
-st.title(x)
+st.header('Tu índice de masa corporal es:')
+st.header(x)
 if imc ==100:
  st.write('Favor de ingresar su altura y su peso')
  
