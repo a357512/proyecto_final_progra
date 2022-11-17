@@ -33,6 +33,11 @@ st.sidebar.write('_ISSSTE, 2016_')
 st.sidebar.image('https://sebbm.es/wp-content/uploads/la-obesidad.jpeg')
 
 
+st.sidebar.write('Realizado por:')
+st.sidebar.write('Karen Alejandra Najera Salcido (357512)')
+st.sidebar.write('María Guadalupe Polo Gamez (358113)')
+st.sidebar.write('Programación 4L')
+
 
 
 estatura= st.number_input('Ingrese su estatura en metros',0.01)
