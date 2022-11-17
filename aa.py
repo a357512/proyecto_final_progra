@@ -38,6 +38,7 @@ st.sidebar.image('https://sebbm.es/wp-content/uploads/la-obesidad.jpeg')
 estatura= st.number_input('Ingrese su estatura en metros',0.01)
 masa= st.number_input('Ingrese su masa en kilos',0.01)
 imc= masa/estatura**2
+round(imc,2)
 st.title('Tu índice de masa corporal es:')
 st.title(imc)
 if imc ==100:
